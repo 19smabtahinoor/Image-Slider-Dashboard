@@ -78,3 +78,29 @@ previousArrow.addEventListener('click',() => {
         showImage.src = images[counting]
     }
 })
+
+
+const thumbnailpreviousArrow = document.querySelector('.thumbnailleftArrow')
+const thumbnailnextArrow = document.querySelector('.thumbnailrightArrow')
+
+
+thumbnailnextArrow.addEventListener('click',() => {
+    counting++
+    if(counting>=images.length){
+        counting = 0
+        showImage.src = images[counting]
+    }else{
+        showImage.src = images[counting]
+    }
+})
+
+
+thumbnailpreviousArrow.addEventListener('click',() => {
+    counting--
+    if(counting < 0){
+        counting = images.length - 1
+        showImage.src = images[counting]
+    }else{
+        showImage.src = images[counting]
+    }
+})
