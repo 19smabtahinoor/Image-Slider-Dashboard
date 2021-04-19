@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="./src/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-gallery-wrapper">
+            <div class="image-display">
+                <img src="images/1.jpg" alt="imageslider" class="image-for-show">
+                <span class="material-icons rightArrow arrow">&#xe5e1;</span>
+                <span class="material-icons leftArrow arrow">&#xe5e0;</span>
+            </div>
+
+            <div class="image-title">
+                <span>title</span>
+            </div>
+
+            <div class="image-thumnail">
+                <img src="images/1.jpg"alt="image1" class="img">
+                <img src="images/2.jpg"alt="image2" class="img">
+                <img src="images/3.jpg"alt="image3" class="img">
+                <img src="images/4.jpg"alt="image4" class="img">
+                <img src="images/5.jpg"alt="image5" class="img">
+                <img src="images/6.jpg"alt="image6" class="img">
+            </div>
+        </div>
+
+        <div class="about-image-wrapper">
+            <div class="image-info">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, non veniam ducimus ipsam nesciunt recusandae vel nisi maxime excepturi eius rerum itaque aliquid fugiat maiores ipsum. In fugit saepe optio.</p>
+            </div>
+
+            <div class="image-details">
+                <ul>
+                    <li><b>Image Id </b>: 1221421</li>
+                    <li><b>Description</b>: It is an image</li>
+                    <li><b>Location</b>: Dhaka,Bangladesh</li>
+                    <li><b>Time</b>: 02:04PM</li>
+                    <li><b>Capture</b>: Abtahi Noor</li>
+                </ul>
+            </div>
+
+            <div class="approvement-btns">
+                <button class="approve-btn">Approve Photo</button>
+                <button class="select-btn">Select the placement</button>
+            </div>
+
+            <div class="image-comment-section">
+                <div class="comment-areas">
+                    <h3>Comments</h3>
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="comment-add-btn">
+                    <input type="text"placeholder="Add a comment" class="commentbox">
+
+                    <span class="material-icons sendbtn">&#xe163;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/app.js"></script>
+</body>
+</html>
